@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Question06 {
+public class CodeUp1093 {
 
 	public static void main(String[] args) {
 		// https://www.codeup.kr/problem.php?id=1093
