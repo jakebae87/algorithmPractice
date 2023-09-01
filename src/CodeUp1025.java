@@ -14,7 +14,7 @@ public class CodeUp1025 {
 
 		for (int i = 0; i < numbers.length; i++) {
 			System.out.printf("[%d]\n", Integer.parseInt(numbers[i]) * (int) Math.pow(10, (numbers.length - 1 - i)));
-			
+
 		}
 
 	}

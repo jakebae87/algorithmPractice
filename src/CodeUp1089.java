@@ -3,8 +3,8 @@ import java.util.Scanner;
 public class CodeUp1089 {
 
 	public static void main(String[] args) {
-		// https://www.codeup.kr/problem.php?id=1089
-		// 수 나열하기1
+		// https://www.codeup.kr/problem.php?id=1089	수 나열하기1
+		// 2023-08-31
 
 		Scanner scan = new Scanner(System.in);
 
