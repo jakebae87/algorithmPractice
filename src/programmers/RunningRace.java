@@ -2,8 +2,16 @@ package programmers;
 
 import java.util.Arrays;
 
-class Solution {
-	public String[] solution(String[] players, String[] callings) {
+// https://school.programmers.co.kr/learn/courses/30/lessons/178871
+// 테스트 9,10,11,12,13이 시간초과로 실패가 뜸
+
+public class RunningRace {
+
+	static String[] players = { "mumu", "soe", "poe", "kai", "mine" };
+	static String[] callings = { "kai", "kai", "mine", "mine" };
+
+	public static String[] solution(String[] players, String[] callings) {
+
 		for (int i = 0; i < callings.length; i++) {
 			for (int j = 0; j < players.length; j++) {
 				if (callings[i].equals(players[j])) {
@@ -22,15 +30,9 @@ class Solution {
 		}
 		return answer;
 	}
-}
-
-public class RunningRace {
-	static String[] players = { "mumu", "soe", "poe", "kai", "mine" };
-	static String[] callings = { "kai", "kai", "mine", "mine" };
 
 	public static void main(String[] args) {
-		Solution solution = new Solution();
-		System.out.println(Arrays.toString(solution.solution(players, callings)));
+		System.out.println(Arrays.toString(solution(players, callings)));
 	}
 
 }
