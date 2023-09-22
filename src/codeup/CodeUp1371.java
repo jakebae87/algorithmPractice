@@ -44,7 +44,7 @@ public class CodeUp1371 {
 
 		// 아래
 
-		for (int i = 0; i < line; i++) { // 0,1,2,3 line=4;
+		for (int i = 0; i < line; i++) {
 
 			for (int j = line - i; j < line; j++) {
 				System.out.print(" ");
@@ -52,7 +52,7 @@ public class CodeUp1371 {
 
 			System.out.print("*");
 
-			for (int y = 0; y < (line * 2) - (2 * (i + 1)); y++) { // 8,6,4,2,0
+			for (int y = 0; y < (line * 2) - (2 * (i + 1)); y++) {
 				System.out.print(" ");
 			}
 
